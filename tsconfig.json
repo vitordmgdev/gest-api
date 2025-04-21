@@ -6,8 +6,11 @@
     "esModuleInterop": true,
     "strict": true,
     "outDir": "./dist",
-    "baseUrl": "./",
-    "skipLibCheck": true
+    "baseUrl": "./src/",
+    "skipLibCheck": true,
+    "paths": {
+      "*": ["*"]
+    },
   },
   "include": ["src"]
 }
